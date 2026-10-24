@@ -1,0 +1,3 @@
+Assignment 1: What Happens When You Type a URL?
+
+When a user types a URL into a web browser and presses Enter, the browser first uses the Domain Name System (DNS) to find the website's IP address. The browser then sends a request to the web server where the website is stored. The server responds by sending files such as HTML, CSS, JavaScript, and images. The browser downloads these files, processes the code, and builds the webpage. Finally, the browser displays the fully loaded webpage on the screen, allowing the user to interact with it.
