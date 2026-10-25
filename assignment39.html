@@ -1,0 +1,50 @@
+Assignment 39 
+Create 39-grid-header-sidebar-products.html
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+display:grid;
+grid-template-columns:200px 1fr;
+gap:10px;
+}
+ 
+.sidebar{
+background:lightgray;
+padding:20px;
+}
+ 
+.products{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
+}
+ 
+.product{
+border:1px solid black;
+padding:20px;
+}
+</style>
+</head>
+<body>
+ 
+<h1>Products</h1>
+ 
+<div class="container">
+<div class="sidebar">Categories</div>
+ 
+<div class="products">
+<div class="product">Product 1</div>
+<div class="product">Product 2</div>
+<div class="product">Product 3</div>
+</div>
+ 
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,44 @@
+Assignment 29 
+
+Style a landing-page hero section using position and z-index.<!DOCTYPE html>
+<html>
+<head>
+    <title>Hero Section</title>
+ 
+    <style>
+        .hero {
+            position: relative;
+            height: 300px;
+            background-color: lightblue;
+        }
+ 
+        .box1 {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background: red;
+            color: white;
+            padding: 20px;
+            z-index: 2;
+        }
+ 
+        .box2 {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            background: green;
+            color: white;
+            padding: 20px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+ 
+    <div class="hero">
+        <div class="box1">Hero Content</div>
+        <div class="box2">Background Layer</div>
+    </div>
+ 
+</body>
+</html>
